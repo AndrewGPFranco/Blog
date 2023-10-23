@@ -5,7 +5,7 @@
       <button @click="showMenu"><i class="pi pi-align-justify" style="color: orange; font-size: 2rem;"></i></button>
     </div>
     <div v-show="ativado">
-      <ul  class="text-white">
+      <ul class="text-white text-end m-4">
         <li>Feed</li>
         <li>Networks</li>
         <li>About</li>

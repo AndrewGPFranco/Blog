@@ -1,12 +1,14 @@
 <template>
   <footer class="bg-black text-orange-500 text-center p-2.5">
-    <h1>&copy; {{ year }} All Rights Reserved</h1>
+    <Line />
+    <h1 class="mt-2.5">&copy; {{ year }} All Rights Reserved</h1>
     <Networks/>
   </footer>
 </template>
 
 <script>
   import Networks from "./Networks.vue"
+  import Line from "./Line.vue"
 export default {
   name: "Rodape",
   data() {
@@ -23,6 +25,6 @@ export default {
       this.year = currentDate.getFullYear()
     }
   },
-  components: { Networks }
+  components: { Networks, Line }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5 bg-black">
+  <section class="p-5 bg-black" id="container">
     <div class="border-2 p-1 border-gray-700 rounded-xl bg-orange-400">
     <div v-for="noticia in noticiasData" :key="noticia.id" class="border border-gray-200 rounded-xl p-3 bg-black text-center">
       <img class="mb-2" :src="noticia.link" alt="Thumb do Post" />
@@ -40,3 +40,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  #container {
+    margin-top: -15px;
+  }
+</style>

@@ -3,7 +3,11 @@
     <Navbar />
   </header>
   <main>
+    <Titulo titulo="Curiosidade da Semana" />
     <Destaque />
+    <Titulo titulo="Categorias" />
+    <Card :imagem="{ src: 'https://i.ibb.co/tD0dByw/INERTIA.jpg', alt: 'Imagem um' }" />
+    <Card :imagem="{ src:'https://i.ibb.co/vQq0LC0/PROPS.jpg', alt: 'Imagem um' }" />
   </main>
   <footer>
     <Rodape />
@@ -14,6 +18,8 @@
   import Navbar from "../components/Navbar.vue";
   import Rodape from "../components/Rodape.vue";
   import Destaque from "../components/Home/Destaque.vue"
+  import Card from "../components/Home/Card.vue"
+  import Titulo from "../components/Titulo.vue"
   const name = "Home"
-  const components = { Navbar, Rodape, Destaque }
+  const components = { Navbar, Rodape, Destaque, Card, Titulo }
 </script>
