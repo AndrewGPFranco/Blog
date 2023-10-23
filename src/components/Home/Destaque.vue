@@ -1,8 +1,8 @@
 <template>
   <section class="p-5 bg-black">
-    <div class="border-2 p-2 border-gray-700 rounded-xl bg-orange-400">
+    <div class="border-2 p-1 border-gray-700 rounded-xl bg-orange-400">
     <div v-for="noticia in noticiasData" :key="noticia.id" class="border border-gray-200 rounded-xl p-3 bg-black text-center">
-      <h1 class="text-orange-400">{{ noticia.titulo }}</h1>
+      <img :src="noticia.link" alt="Thumb do Post" />
       <p class="text-white">{{ noticia.descricao }}</p>
     </div>
     </div>
