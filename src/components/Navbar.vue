@@ -1,9 +1,32 @@
 <template>
-  <nav class="bg-black p-2.5">
-    <div>
+  <nav class="bg-black p-2 flex flex-col">
+    <div class="flex justify-between items-center m-4">
       <img class="w-1/4 h-20" src="../assets/logo.jpg" alt="Logo do Blog" />
-    </script></template>
+      <button @click="showMenu"><i class="pi pi-align-justify" style="color: orange; font-size: 2rem;"></i></button>
+    </div>
+    <div v-show="ativado">
+      <ul  class="text-white">
+        <li>Feed</li>
+        <li>Networks</li>
+        <li>About</li>
+      </ul>
+    </div>
+  </nav>
+</template>
 
-<script setup>
-  const name = "Navbar"
+<script>
+export default {
+  name: "Navbar",
+  data() {
+    return {
+      ativado: false
+    };
+  },
+  methods: {
+    showMenu() {
+      this.ativado = !this.ativado;
+      console.log(this.ativado);
+    }
+  }
+};
 </script>
