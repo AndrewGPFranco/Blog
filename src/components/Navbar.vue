@@ -12,9 +12,11 @@
       </ul>
     </div>
   </nav>
+  <Line />
 </template>
 
 <script>
+import Line from "./Line.vue"
 export default {
   name: "Navbar",
   data() {
@@ -27,6 +29,9 @@ export default {
       this.ativado = !this.ativado;
       console.log(this.ativado);
     }
+  },
+  components: {
+    Line
   }
 };
 </script>

@@ -1,9 +1,13 @@
 <template>
+  <header>
     <Navbar />
-    <main>
-      <Destaque />
-    </main>
+  </header>
+  <main>
+    <Destaque />
+  </main>
+  <footer>
     <Rodape />
+  </footer>
 </template>
 
 <script setup>
