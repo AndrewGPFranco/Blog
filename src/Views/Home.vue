@@ -6,8 +6,8 @@
     <Titulo titulo="Curiosidade da Semana" />
     <Destaque />
     <Titulo titulo="Categorias" />
-    <Card :imagem="{ src: 'https://i.ibb.co/tD0dByw/INERTIA.jpg', alt: 'Imagem um' }" />
-    <Card :imagem="{ src:'https://i.ibb.co/vQq0LC0/PROPS.jpg', alt: 'Imagem um' }" />
+    <Card :imagem="{ src: 'https://i.ibb.co/GCqVwFx/backend.jpg', alt: 'Imagem um' }" />
+    <Card :imagem="{ src: 'https://i.ibb.co/4dqKPR2/frontend.jpg', alt: 'Imagem um' }" />
   </main>
   <footer>
     <Rodape />
