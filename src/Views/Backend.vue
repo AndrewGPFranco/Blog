@@ -4,7 +4,7 @@
   </header>
   <main>
     <Titulo titulo="Aulas sobre Laravel"/>
-     <div v-for="video in videos" :key="video.id">
+     <div v-for="video in videos" :key="video.id" class="-mt-4">
       <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao"/>
     </div>
 </main>
