@@ -6,6 +6,9 @@
     "categoria": "Front-end"
   },
   {
-    
+    "link": "https://www.youtube.com/embed/3gpJ-te_HHg?si=PhSw1td_LQmQFTJu",
+    "titulo": "Como Fazer uma Requisição POST no Vue 3 com o Axios?!",
+    "descricao": "Neste vídeo eu ensino como fazer requisições com o verbo POST para o backend, usando o Vue Js",
+    "categoria": "Front-end"
   }
 ]

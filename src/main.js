@@ -3,6 +3,7 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './Views/Home.vue'
 import Backend from './Views/Backend.vue'
+import Frontend from './Views/Frontend.vue'
 
 import 'primeicons/primeicons.css'
 
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/backend',
       name: 'Backend',
       component: Backend
+    },
+    {
+      path: '/frontend',
+      name: 'Frontend',
+      component: Frontend
     }
   ]
 })
