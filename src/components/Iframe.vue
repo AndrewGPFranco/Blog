@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-black p-6 flex flex-col justify-center text-white text-center">
+  <div class="bg-black p-6 flex flex-col justify-center text-center">
     <h1 class="text-orange-500">{{ titulo }}</h1>
     <iframe v-if="assistir" :src="link" frameborder="0" allowfullscreen></iframe>
-    <p class="tect-gray-300">{{ descricao }}</p>
+    <p class="text-gray-300">{{ descricao }}</p>
   </div>
 </template>
 
