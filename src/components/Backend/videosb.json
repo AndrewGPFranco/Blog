@@ -12,5 +12,12 @@
     "titulo": "Propriedades importantes nas Models do Laravel 10. Fillable, PrimaryKey, Timestamp e Table!",
     "descricao": "Neste vídeo, você vai aprender 4 propriedades usadas nas models no Laravel.",
     "categoria": "Back-end"
+  }, 
+  {
+    "id": 3,
+    "link": "https://www.youtube.com/embed/Vb1HsK4IM88?si=-XnbM4-OR_dy1uon",
+    "titulo": "Como instalar Laravel / Breeze, Vue 3, Inertia e Typescript no Mesmo Projeto?!",
+    "descricao": "Neste vídeo, você aprenderá a instalar Laravel /Breeze, Vue 3, Inertia e Typescript no mesmo projeto para criar um projeto fullstack.",
+    "categoria": "Back-end"
   }
 ]

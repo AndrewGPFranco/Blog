@@ -1,14 +1,23 @@
 [
   {
+    "id": 1,
     "link": "https://www.youtube.com/embed/jOBojKWPxsE?si=RIaLEuhGoSWkctak",
     "titulo": "Como Receber Props do Controller do Laravel para o Componente Vue JS?!",
     "descricao": "Neste vídeo, você vai aprender como receber props do controller do Laravel para o componente Vue JS.",
     "categoria": "Front-end"
   },
   {
+    "id": 2,
     "link": "https://www.youtube.com/embed/3gpJ-te_HHg?si=PhSw1td_LQmQFTJu",
     "titulo": "Como Fazer uma Requisição POST no Vue 3 com o Axios?!",
     "descricao": "Neste vídeo eu ensino como fazer requisições com o verbo POST para o backend, usando o Vue Js",
     "categoria": "Front-end"
+  },
+  {
+    "id": 3,
+    "link": "https://www.youtube.com/embed/Vb1HsK4IM88?si=-XnbM4-OR_dy1uon",
+    "titulo": "Como instalar Laravel / Breeze, Vue 3, Inertia e Typescript no Mesmo Projeto?!",
+    "descricao": "Neste vídeo, você aprenderá a instalar Laravel / Breeze, Vue 3, Inertia e Typescript no mesmo projeto para criar um projeto fullstack.",
+    "categoria": "Back-end"
   }
 ]
