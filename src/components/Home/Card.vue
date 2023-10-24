@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-wrap bg-black justify-around p-3">
-    <img class="w-3/5" :src="imagem.src" :alt="imagem.alt" />
+    <router-link :to="link"><img class="w-5/5" :src="imagem.src" :alt="imagem.alt" /></router-link>
   </section>
 </template>
 
@@ -8,7 +8,8 @@
   export default {
     name: "Card",
     props: {
-      imagem: Object
+      imagem: Object,
+      link: String
     }
   }
 </script>

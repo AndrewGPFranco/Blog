@@ -2,7 +2,9 @@
   <header>
     <Navbar />
   </header>
-  <h1>Tela de Backend</h1>
+  <main class="text-white bg-black p-4">
+    <h1>Tela de backend</h1>
+</main>
   <footer>
     <Rodape />
   </footer>
