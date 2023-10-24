@@ -6,7 +6,8 @@
     </div>
     <div v-show="ativado">
       <ul class="text-white text-end m-4">
-        <li>Feed</li>
+        <router-link to ="/"><li>Home</li></router-link>
+        <router-link to ="/backend"><li>Backend</li></router-link>
         <li>Networks</li>
         <li>About</li>
       </ul>
