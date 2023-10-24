@@ -9,7 +9,6 @@
         <router-link to ="/"><li>Home</li></router-link>
         <router-link to ="/backend"><li>Backend</li></router-link>
         <router-link to ="/frontend"><li>Frontend</li></router-link>
-        <li>About</li>
       </ul>
     </div>
   </nav>

@@ -1,8 +1,12 @@
 <template>
   <div class="bg-black p-6 flex flex-col justify-center text-center">
-    <h1 class="text-orange-500">{{ titulo }}</h1>
-    <iframe v-if="assistir" :src="link" frameborder="0" allowfullscreen></iframe>
+    <h1 class="text-orange-500 mb-1">{{ titulo }}</h1>
+    <!--<iframe v-if="assistir" :src="link" frameborder="0" allowfullscreen></iframe>-->
+    <div class="flex flex-col justify-center text-center" v-if="assistir">
+    <img class="mb-2" :src="imagem" :alt="alt" />
     <p class="text-gray-300">{{ descricao }}</p>
+    <a class="text-blue-300 -mb-4 bg-gray-500 p-2.5 w-2/4 m-2" :href="link" target="_blank">VER NO YOUTUBE</a>
+    </div>
   </div>
 </template>
 
@@ -13,7 +17,9 @@
       link: String,
       titulo: String,
       descricao: String,
-      assistir: Boolean
+      assistir: Boolean,
+      imagem: String,
+      alt: String
     }
   }
 </script>

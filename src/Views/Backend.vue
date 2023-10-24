@@ -5,7 +5,7 @@
   <main>
     <Titulo titulo="Aulas sobre Laravel"/>
      <div v-for="video in videos" :key="video.id" class="-mt-4">
-      <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao" :assistir="assistir"/>
+      <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao" :assistir="assistir" :imagem="video.imagem" :alt="video.alt"/>
     </div>
     <div class="bg-black flex justify-center">
     <button @click="assistirVideo" class="bg-black text-blue-300">Assistir</button>
