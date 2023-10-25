@@ -7,8 +7,8 @@
     <div v-show="ativado">
       <ul class="text-white m-4 flex flex-col text-end">
         <router-link to ="/" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">Home</li></router-link>
-        <router-link to ="/backend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1  rounded-lg w-2/5 font-bold">Backend</li></router-link>
-        <router-link to ="/frontend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">Frontend</li></router-link>
+        <router-link to ="/backend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1  rounded-lg w-2/5 font-bold">Back-End</li></router-link>
+        <router-link to ="/frontend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">Front-End</li></router-link>
       </ul>
     </div>
   </nav>
