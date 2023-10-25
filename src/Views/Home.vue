@@ -7,15 +7,19 @@
     <Destaque />
     <div class="p-4 bg-black flex justify-center flex-col">
     <Titulo titulo="Vídeo da Semana" />
-    <video width="560" height="315" controls class="border border-orange-400 mt-2">
+      <p v-if="assistir === false" class="text-white text-center">Toque para Assistir</p>
+      <div class="flex justify-center text-center">
+    <button @click="video" v-if="assistir === false" class="text-blue-500 font-bold p-1 w-2/5 mt-2 text-xl rounded-md"><i class="pi pi-eye" style="font-size:5rem" ></i></button>
+      </div>
+    <video width="560" height="315" controls class="border border-orange-400 mt-2" v-if="assistir">
   <source src="../../video.mp4" type="video/mp4">
   Seu navegador não suporta a tag de vídeo.
 </video>
     </div>
     <Titulo titulo="Categorias" />
     <div class="flex justify-center bg-black">
-    <Card :imagem="{ src: 'https://i.ibb.co/GCqVwFx/backend.jpg', alt: 'Imagem um' }" link="/backend" />
-    <Card :imagem="{ src: 'https://i.ibb.co/4dqKPR2/frontend.jpg', alt: 'Imagem um' }" link="/frontend" />
+    <Card categoria="Back-End" link="/backend" />
+    <Card categoria="Front-End" link="/frontend" />
       </div>
   </main>
   <footer>
@@ -23,12 +27,30 @@
   </footer>
 </template>
 
-<script setup>
+<script>
   import Navbar from "../components/Navbar.vue";
   import Rodape from "../components/Rodape.vue";
   import Destaque from "../components/Home/Destaque.vue"
   import Card from "../components/Home/Card.vue"
   import Titulo from "../components/Titulo.vue"
-  const name = "Home"
-  const components = { Navbar, Rodape, Destaque, Card, Titulo }
+  export default {
+    name: "Home",
+    data() {
+      return {
+        assistir: false
+      }
+    },
+    components: {
+      Navbar, 
+      Rodape, 
+      Destaque, 
+      Card, 
+      Titulo,
+    },
+  methods: {
+    video() {
+      this.assistir = !this.assistir
+    }
+  }
+  }
 </script>
