@@ -2,7 +2,8 @@
   <section class="p-5 bg-black" id="container">
     <div class="border-2 p-1 border-gray-700 rounded-xl bg-black">
     <div v-for="noticia in noticiasData" :key="noticia.id" class="border border-gray-700 rounded-xl p-3 bg-black text-center">
-      <img class="mb-2" :src="noticia.link" alt="Thumb do Post" />
+      <!--<img class="mb-2" :src="noticia.link" alt="Thumb do Post" />-->
+      <img class="mb-2" src="../../assets/VueJs.jpg" alt="Thumb do Post" />
       <Line />
       <p class="text-white text-start mt-2">{{ noticia.descricao }}</p>
       <div class="flex justify-end">
