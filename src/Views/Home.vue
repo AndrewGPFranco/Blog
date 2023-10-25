@@ -5,6 +5,13 @@
   <main>
     <Titulo titulo="Curiosidade da Semana" />
     <Destaque />
+    <div class="p-4 bg-black">
+    <Titulo titulo="Vídeo da Semana" />
+    <video width="560" height="315" controls class="border border-orange-400 mt-2">
+  <source src="../../video.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>
+    </div>
     <Titulo titulo="Categorias" />
     <div class="flex">
     <Card :imagem="{ src: 'https://i.ibb.co/GCqVwFx/backend.jpg', alt: 'Imagem um' }" link="/backend" />
