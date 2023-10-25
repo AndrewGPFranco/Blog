@@ -5,7 +5,7 @@
   <main>
     <Titulo titulo="Curiosidade da Semana" />
     <Destaque />
-    <div class="p-4 bg-black">
+    <div class="p-4 bg-black flex justify-center flex-col">
     <Titulo titulo="Vídeo da Semana" />
     <video width="560" height="315" controls class="border border-orange-400 mt-2">
   <source src="../../video.mp4" type="video/mp4">
@@ -13,7 +13,7 @@
 </video>
     </div>
     <Titulo titulo="Categorias" />
-    <div class="flex">
+    <div class="flex justify-center bg-black">
     <Card :imagem="{ src: 'https://i.ibb.co/GCqVwFx/backend.jpg', alt: 'Imagem um' }" link="/backend" />
     <Card :imagem="{ src: 'https://i.ibb.co/4dqKPR2/frontend.jpg', alt: 'Imagem um' }" link="/frontend" />
       </div>
