@@ -5,10 +5,10 @@
       <button @click="showMenu"><i class="pi pi-align-justify" style="color: orange; font-size: 2rem;"></i></button>
     </div>
     <div v-show="ativado">
-      <ul class="text-white text-end m-4">
-        <router-link to ="/"><li>Home</li></router-link>
-        <router-link to ="/backend"><li>Backend</li></router-link>
-        <router-link to ="/frontend"><li>Frontend</li></router-link>
+      <ul class="text-white m-4 flex flex-col text-end">
+        <router-link to ="/" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">Home</li></router-link>
+        <router-link to ="/backend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1  rounded-lg w-2/5 font-bold">Backend</li></router-link>
+        <router-link to ="/frontend" class="flex justify-end"><li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">Frontend</li></router-link>
       </ul>
     </div>
   </nav>
