@@ -11,8 +11,9 @@
     <div class="p-4 bg-black flex justify-center flex-col">
       <Titulo 
         titulo="Vídeo da Semana"
+        class="mb-2 -mt-3.5"
       />
-      <p v-if="assistir === false" class="text-white text-center">
+      <p v-if="assistir === false" class="text-white text-center -mt-2">
         Toque para Assistir
       </p>
       <div class="flex justify-center text-center">
@@ -20,10 +21,11 @@
           <i class="pi pi-eye" style="font-size:5rem" ></i>
         </button>
       </div>
-      <iframe v-if="assistir" class="4/4" height="315" src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe v-if="assistir" class="4/4 rounded-md" height="250" src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <Titulo 
       titulo="Categorias"
+      class="-mt-9"
     />
     <div class="flex justify-center bg-black">
       <Card 
