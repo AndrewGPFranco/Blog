@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from './Views/Home.vue'
 import Backend from './Views/Backend.vue'
 import Frontend from './Views/Frontend.vue'
+import Artigos from './Views/Artigos.vue'
 
 import 'primeicons/primeicons.css'
 
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/frontend',
       name: 'Frontend',
       component: Frontend
+    },
+    {
+      path: '/artigos',
+      name: 'Artigos',
+      component: Artigos
     }
   ]
 })
