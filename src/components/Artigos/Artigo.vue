@@ -1,7 +1,7 @@
 <template>
   <section class="bg-black text-white p-4">
     <div v-for="artigo in artigos" :key="artigo.id">
-      <Titulo :titulo="artigo.titulo" />
+      <Titulo class="text-start" :titulo="artigo.titulo" />
       <p class="mt-1">{{ artigo.textoUm }}</p>
       <img class="my-3" :src="artigo.imagem" alt="Imagem do Artigo" />
       <p>{{ artigo.textoDois }}</p>

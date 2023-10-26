@@ -1,7 +1,52 @@
 [
   {
     "id": "1",
-    "titulo": "Framework Laravel",
+    "titulo": "Vue.js",
+    "cor": "green",
+    "textoUm": "Vue.js é um framework de desenvolvimento web de código aberto baseado em JavaScript. Ele é usado para criar interfaces de usuário interativas e envolventes.",
+    "textoDois": "Vue.js é uma ferramenta poderosa que pode ser usada para criar uma ampla variedade de aplicações web. Ele é rápido, flexível e fácil de aprender.",
+    "data": "26-10-2023",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHuUunHF4QvVUeWMRFrx5xATtgRy53W5fwg&usqp=CAU"
+  },
+  {
+    "id": "2",
+    "titulo": "Python",
+    "cor": "blue",
+    "textoUm": "Python é uma linguagem de programação de alto nível, interpretada, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. É uma linguagem de propósito geral, mas é particularmente adequada para desenvolvimento web, análise de dados, ciência da computação e inteligência artificial.",
+    "textoDois": "Python é uma linguagem fácil de aprender e usar, com uma grande comunidade de desenvolvedores. É uma linguagem poderosa que pode ser usada para criar uma ampla variedade de aplicações.",
+    "data": "26-10-2023",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfMSuGFp4G74Sdw65hqLBj6fMm4KImSBv0velUHoBhP4sI-boS3pHwqxg&s=10"
+  },
+  {
+    "id": "3",
+    "titulo": "PHP",
+    "cor": "red",
+    "textoUm": "PHP é uma linguagem de programação interpretada, de propósito geral, de código aberto. É usada principalmente para desenvolvimento web, mas também pode ser usada para desenvolvimento de jogos, aplicativos de desktop e serviços de back-end.",
+    "textoDois": "PHP é uma linguagem flexível e poderosa que pode ser usada para criar uma ampla variedade de aplicações. É uma linguagem fácil de aprender, mas também pode ser usada para desenvolvimento de aplicações complexas.",
+    "data": "26-10-2023",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV-tyof24_2vOrD6wzGtR9J8oL2k6FiWA46isSbomwlHhIXiaeRrnPWSYA&s=10"
+  },
+  {
+    "id": "4",
+    "titulo": "Java",
+    "cor": "yellow",
+    "textoUm": "Java é uma linguagem de programação de propósito geral, orientada a objetos, compilada, e interpretada. É uma linguagem poderosa e versátil que pode ser usada para desenvolvimento de software de desktop, web, mobile e servidor.",
+    "textoDois": "Java é uma linguagem bem projetada e segura. É uma linguagem robusta que pode ser usada para criar aplicações complexas.",
+    "data": "26-10-2023",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagSJ9TXU_FXTWon8CEJJ5-U1ubT6tWquAFQ&usqp=CAU"
+  },
+  {
+    "id": "5",
+    "titulo": "Ruby on Rails",
+    "cor": "purple",
+    "textoUm": "Ruby on Rails é um framework de desenvolvimento web de código aberto baseado em Ruby. É uma ferramenta poderosa que pode ser usada para criar aplicações web robustas e escaláveis.",
+    "textoDois": "Ruby on Rails é um framework bem documentado e fácil de aprender. É uma ferramenta flexível que pode ser usada para criar uma ampla variedade de aplicações.",
+    "data": "26-10-2023",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_N6qufNgAKdD7ZT0iuRiqYOj-60FPaunhA&usqp=CAU"
+  },
+  {
+    "id": "6",
+    "titulo": "Laravel",
     "textoUm": "O Laravel é um framework de desenvolvimento web em PHP amplamente utilizado que se destaca por sua elegante sintaxe e funcionalidades poderosas. Oferecendo uma estrutura organizada e expressiva, o Laravel simplifica o desenvolvimento de aplicativos web.",
     "textoDois": "Uma das principais características do Laravel é seu sistema de roteamento, que permite definir facilmente as URLs do aplicativo. Além disso, o framework integra o Eloquent, um ORM que torna a interação com bancos de dados mais eficiente e legível, permitindo que os desenvolvedores trabalhem com dados usando objetos e métodos.",
     "data": "26-10-2023",
