@@ -20,9 +20,7 @@
           <i class="pi pi-eye" style="font-size:5rem" ></i>
         </button>
       </div>
-      <video width="560" height="315" controls class="border border-orange-400 mt-2" v-if="assistir">
-        <source src="../../video.mp4" type="video/mp4">
-      </video>
+      <iframe v-if="assistir" class="4/4" height="315" src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <Titulo 
       titulo="Categorias" 
