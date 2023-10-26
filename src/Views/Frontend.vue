@@ -4,10 +4,16 @@
   </header>
   <main>
     <Titulo titulo="Aulas Categoria: Front-End"/>
-     <div v-for="video in videos" :key="video.id" class="-mt-4">
-      <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao" :imagem="video.imagem" :alt="video.alt" />
+    <div v-for="video in videos" :key="video.id" class="-mt-4">
+      <Iframe 
+        :link="video.link" 
+        :titulo="video.titulo" 
+        :descricao="video.descricao" 
+        :imagem="video.imagem" 
+        :alt="video.alt" 
+      />
     </div>
-</main>
+  </main>
   <footer>
     <Rodape />
   </footer>
@@ -28,10 +34,10 @@ import Navbar from "../components/Navbar.vue";
       Titulo
     },
     data() {
-    return {
-      videos: videos,
-      assistir: false
-    };
+      return {
+        videos: videos,
+        assistir: false
+      }
     }
   }
 </script>
