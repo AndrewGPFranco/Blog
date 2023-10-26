@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5 bg-black" id="container">
+  <section class="p-5 bg-black -mt-2">
     <div class="border-2 p-0.5 border-gray-700 rounded-xl bg-black">
       <div v-for="noticia in noticiasData" :key="noticia.id" class="border border-gray-700 rounded-xl p-3 bg-black text-center">
         <img class="mb-2 rounded-xl" src="../../assets/vue.jpg" alt="Thumb do Post" />
@@ -40,9 +40,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  #container {
-    margin-top: -15px;
-  }
-</style>

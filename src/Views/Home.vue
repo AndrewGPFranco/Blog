@@ -3,6 +3,7 @@
     <Navbar />
   </header>
   <main>
+    <Banner />
     <Titulo 
       titulo="Curiosidade da Semana" 
     />
@@ -48,6 +49,7 @@
   import Destaque from "../components/Home/Destaque.vue"
   import Card from "../components/Home/Card.vue"
   import Titulo from "../components/Titulo.vue"
+  import Banner from "../components/Home/Banner.vue"
   export default {
     name: "Home",
     data() {
@@ -61,6 +63,7 @@
       Destaque, 
       Card, 
       Titulo,
+      Banner
     },
     methods: {
       video() {
