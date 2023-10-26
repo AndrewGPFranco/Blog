@@ -25,7 +25,7 @@
     </div>
     <Titulo 
       titulo="Categorias"
-      class="-mt-9"
+      class="-mt-6"
     />
     <div class="flex justify-center bg-black">
       <Card 
