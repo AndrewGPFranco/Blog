@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nome": "Laravel",
+    "imagem": "https://i.ibb.co/drrxzN9/laravel.png"
+  },
+  {
+    "id": 2,
+    "nome": "Python",
+    "imagem": "https://i.ibb.co/Jz5XpmW/python.png"
+  },
+  {
+    "id": 3,
+    "nome": "Spring Boot",
+    "imagem": "https://i.ibb.co/f27wdz5/spring.png"
+  },
+  {
+    "id": 4,
+    "nome": "Angular",
+    "imagem": "https://i.ibb.co/W5ftLK6/angular.png"
+  },
+  {
+    "id": 5,
+    "nome": "Vue",
+    "imagem": "https://i.ibb.co/HXq4tBM/vue.png"
+  },
+  {
+    "id": 6,
+    "nome": "React",
+    "imagem": "https://i.ibb.co/9t6YkBF/react.png"
+  },
+  {
+    "id": 7,
+    "nome": "Ruby",
+    "imagem": "https://i.ibb.co/6RTZ9fP/ruby.png"
+  },
+  {
+    "id": 8,
+    "nome": "Java",
+    "imagem": "https://i.ibb.co/tYgKkz4/java.png"
+  },
+  {
+    "id": 9,
+    "nome": "Tailwind",
+    "imagem": "https://i.ibb.co/Yht90fY/tailwind.png"
+  },
+  {
+    "id": 10,
+    "nome": "PHP",
+    "imagem": "https://i.ibb.co/cC7pdTY/php.png"
+  },
+  {
+    "id": 11,
+    "nome": "CSharp",
+    "imagem": "https://i.ibb.co/q0WvKG3/csharp.png"
+  },
+  {
+    "id": 12,
+    "nome": "C++",
+    "imagem": "https://i.ibb.co/HDv195S/cplus.png"
+  }
+]
