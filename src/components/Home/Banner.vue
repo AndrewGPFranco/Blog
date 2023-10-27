@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-2 bg-black">
-    <img class="mb-2 p-1" src="../../assets/banner.jpg" alt="Banner" />
+  <div class="pt-2 px-3.5 bg-black">
+    <img class="mb-2 p-1 rounded-2xl" src="../../assets/banner.jpg" alt="Banner" />
     <Line />
   </div>
 </template>
