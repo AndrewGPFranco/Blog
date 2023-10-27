@@ -58,5 +58,45 @@
     "id": 12,
     "nome": "C++",
     "imagem": "https://i.ibb.co/HDv195S/cplus.png"
+  },
+  {
+    "id": 13,
+    "nome": "Django",
+    "imagem": "https://i.ibb.co/RBSz1ZW/django.png"
+  },
+  {
+    "id": 14,
+    "nome": "Javascript",
+    "imagem": "https://i.ibb.co/k2YWfNf/javascript.png"
+  },
+  {
+    "id": 15,
+    "nome": "Typescript",
+    "imagem": "https://i.ibb.co/yYyxVqh/typescript.png"
+  },
+  {
+    "id": 16,
+    "nome": "HTML",
+    "imagem": "https://i.ibb.co/WnqxL8d/html.png"
+  },
+  {
+    "id": 17,
+    "nome": "CSS",
+    "imagem": "https://i.ibb.co/bFXpr1R/css.png"
+  },
+  {
+    "id": 18,
+    "nome": "Bootstrap",
+    "imagem": "https://i.ibb.co/nCZj6xt/bootstrap.png"
+  },
+  {
+    "id": 19,
+    "nome": "Ruby on Rails",
+    "imagem": "https://i.ibb.co/wJNhQc7/rails.png"
+  },
+  {
+    "id": 20,
+    "nome": "Rust",
+    "imagem": "https://i.ibb.co/Lngk5pJ/rust.png"
   }
 ]
