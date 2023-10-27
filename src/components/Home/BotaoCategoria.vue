@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "Card",
+    name: "BotaoCategoria",
     props: {
       categoria: String,
       link: String

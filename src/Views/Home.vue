@@ -28,11 +28,11 @@
       class="-mt-6"
     />
     <div class="flex justify-center bg-black">
-      <Card 
+      <BotaoCategoria 
         categoria="Back-End" 
         link="/backend" 
       />
-      <Card 
+      <BotaoCategoria 
         categoria="Front-End" 
         link="/frontend" 
       />
@@ -47,9 +47,10 @@
   import Navbar from "../components/Navbar.vue";
   import Rodape from "../components/Rodape.vue";
   import Destaque from "../components/Home/Destaque.vue"
-  import Card from "../components/Home/Card.vue"
+  import BotaoCategoria from "../components/Home/BotaoCategoria.vue"
   import Titulo from "../components/Titulo.vue"
   import Banner from "../components/Home/Banner.vue"
+  import Linguagens from "../components/Home/Linguagens.vue"
   export default {
     name: "Home",
     data() {
@@ -61,9 +62,10 @@
       Navbar, 
       Rodape, 
       Destaque, 
-      Card, 
+      BotaoCategoria, 
       Titulo,
-      Banner
+      Banner, 
+      Linguagens
     },
     methods: {
       video() {
