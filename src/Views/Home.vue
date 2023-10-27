@@ -37,6 +37,7 @@
         link="/frontend" 
       />
     </div>
+    <Linguagens />
   </main>
   <footer>
     <Rodape />
