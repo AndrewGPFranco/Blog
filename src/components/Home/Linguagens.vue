@@ -18,6 +18,7 @@
         { src: 'src/assets/ruby.png' },
         { src: 'src/assets/java.png' },
         { src: 'src/assets/python.png' },
+        { src: 'src/assets/tailwind.png' },
       ],
     }
   }

@@ -18,7 +18,7 @@
       </p>
       <div class="flex justify-center text-center">
         <button @click="video" v-if="assistir === false" class="text-blue-500 font-bold p-1 w-2/5 mt-2 text-xl rounded-md">
-          <i class="pi pi-eye" style="font-size:5rem" ></i>
+          <i class="pi pi-eye" style="font-size:5rem; color:orange;" ></i>
         </button>
       </div>
       <iframe v-if="assistir" class="4/4 rounded-md" height="250" src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
