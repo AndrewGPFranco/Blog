@@ -4,7 +4,8 @@
       <div v-for="noticia in noticiasData" :key="noticia.id" class="border border-gray-700 rounded-xl p-3 bg-black text-center">
         <img class="mb-2 rounded-xl" src="../../assets/vue.jpg" alt="Thumb do Post" />
         <Line />
-        <p class="text-white text-start mt-2">{{ noticia.descricao }}</p>
+        <p class="text-white text-start mt-2">{{ noticia.descricao.substring(0,106) + '...'}}</p>
+        <router-link to="/artigos"><button class="text-blue-500 underline">Leia mais</button></router-link>
           <div class="flex justify-end">
           <p  v-if="noticia.categoria === 'Front-end'" class="font-bold text-yellow-500 bg-black text-end p-1.5 rounded w-2/4">{{ noticia.categoria }}</p>
             <p v-else class="font-bold text-red-500 bg-black text-end p-1.5 rounded w-2/4">{{ noticia.categoria }}</p>
