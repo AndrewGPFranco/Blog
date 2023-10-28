@@ -9,26 +9,11 @@
         <img class="mb-2 rounded-xl lg:w-2/4 lg:min-auto" src="../../assets/vue.jpg" alt="Thumb do Post" />
         <Line />
         <p class="text-white text-start mt-2">
-          {{ noticia.descricao.substring(0, 106) + "..." }}
+          {{ noticia.descricao.substring(0, 107) + "..." }}
         </p>
         <router-link to="/artigos">
-          <button class="text-blue-500 underline">Leia mais</button>
+          <button class="text-black bg-orange-500 p-2 rounded-2xl font-bold mt-1">Leia mais</button>
         </router-link>
-
-        <div class="flex justify-end">
-          <p
-            v-if="noticia.categoria === 'Front-end'"
-            class="font-bold text-yellow-500 bg-black text-end p-1.5 rounded w-2/4"
-          >
-            {{ noticia.categoria }}
-          </p>
-          <p
-            v-else
-            class="font-bold text-red-500 bg-black text-end p-1.5 rounded w-2/4"
-          >
-            {{ noticia.categoria }}
-          </p>
-        </div>
       </div>
     </div>
   </section>

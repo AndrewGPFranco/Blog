@@ -5,7 +5,7 @@
       <div class="flex justify-around mt-3 mb-3">
         <li class="border-b border-gray-300">
           <a href="https://www.youtube.com/channel/UC7L-jcONEz0AG56nfSQiXvA" target="_blank">
-            <i class="pi pi-youtube" style="font-size: 2rem; color: red;"></i>
+            <i class="pi pi-youtube" style="font-size: 2rem; color: #c4302b;"></i>
           </a>
         </li>
         <li class="border-b border-gray-300">

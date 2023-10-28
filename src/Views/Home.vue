@@ -13,7 +13,7 @@
         titulo="Vídeo da Semana"
         class="mb-2 -mt-3.5"
       />
-      <p v-if="assistir === false" class="text-white text-center -mt-2">
+      <p v-if="assistir === false" class="text-gray-300 text-center -mt-2">
         Toque para Assistir
       </p>
       <div class="flex justify-center text-center">

@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-wrap bg-black justify-around p-3 mt-1">
     <router-link :to="link">
-      <button class="bg-gray-700 text-blue-300 p-3 rounded-md font-bold">{{ categoria }}</button>
+      <button class="bg-gray-700 text-black p-3 rounded-xl font-bold">{{ categoria }}</button>
     </router-link>
   </section>
 </template>

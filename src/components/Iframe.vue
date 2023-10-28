@@ -4,7 +4,7 @@
     <div class="flex flex-col justify-center text-center">
     <img class="mb-2" :src="imagem" :alt="alt" />
     <p class="text-gray-300">{{ descricao }}</p>
-    <a class="text-blue-300 -mb-4 bg-gray-500 p-2.5 w-2/4 m-2" :href="link" target="_blank">VER NO YOUTUBE</a>
+    <a class="text-black font-bold rounded-sm -mb-4 bg-gray-500 p-2.5 w-2/4 m-2" :href="link" target="_blank">VER NO YOUTUBE</a>
     </div>
   </div>
 </template>
