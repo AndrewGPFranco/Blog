@@ -54,6 +54,7 @@
   import Titulo from "../components/Titulo.vue"
   import Banner from "../components/Home/Banner.vue"
   import Linguagens from "../components/Home/Linguagens.vue"
+  
   export default {
     name: "Home",
     data() {
