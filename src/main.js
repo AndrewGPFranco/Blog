@@ -5,6 +5,7 @@ import Home from './Views/Home.vue'
 import Backend from './Views/Backend.vue'
 import Frontend from './Views/Frontend.vue'
 import Artigos from './Views/Artigos.vue'
+import NotFound from './Views/NotFound.vue'
 
 import 'primeicons/primeicons.css'
 
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/artigos',
       name: 'Artigos',
       component: Artigos
+    },
+    {
+      path: '/:path',
+      name: 'NotFound',
+      component: NotFound
     }
   ]
 })
