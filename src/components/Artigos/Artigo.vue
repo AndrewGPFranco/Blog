@@ -19,8 +19,8 @@ export default {
   components: { Titulo },
   data() {
     return {
-      artigos: artigos
-    }
-  }
+      artigos: artigos,
+    };
+  },
 };
 </script>

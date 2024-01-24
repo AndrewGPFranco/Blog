@@ -2,29 +2,29 @@
   <footer class="bg-black text-orange-500 text-center p-2.5">
     <Line />
     <h1 class="mt-2.5">&copy; {{ year }} All Rights Reserved</h1>
-    <Networks/>
+    <Networks />
   </footer>
 </template>
 
 <script>
-  import Networks from "./Networks.vue"
-  import Line from "./Line.vue"
+import Networks from "./Networks.vue";
+import Line from "./Line.vue";
 export default {
   name: "Rodape",
   data() {
     return {
-      year: ""
-    }
+      year: "",
+    };
   },
   created() {
-    this.getYear()
+    this.getYear();
   },
   methods: {
     getYear() {
-      const currentDate = new Date()
-      this.year = currentDate.getFullYear()
-    }
+      const currentDate = new Date();
+      this.year = currentDate.getFullYear();
+    },
   },
-  components: { Networks, Line }
-}
+  components: { Networks, Line },
+};
 </script>

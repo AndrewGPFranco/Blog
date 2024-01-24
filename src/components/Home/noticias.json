@@ -1,7 +1,9 @@
-[{
-  "id": 1,
-  "titulo": "VUE JS",
-  "link": "https://i.ibb.co/MGGgmRY/20231023-150517-0000.jpg",
-  "descricao": "Vue.js é um framework de desenvolvimento web de código aberto baseado em JavaScript. Ele é usado para criar interfaces de usuário interativas e envolventes.",
-  "categoria": "Front-end"
-}]
+[
+  {
+    "id": 1,
+    "titulo": "VUE JS",
+    "link": "https://i.ibb.co/MGGgmRY/20231023-150517-0000.jpg",
+    "descricao": "Vue.js é um framework de desenvolvimento web de código aberto baseado em JavaScript. Ele é usado para criar interfaces de usuário interativas e envolventes.",
+    "categoria": "Front-end"
+  }
+]

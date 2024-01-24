@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 1,
     "link": "https://www.youtube.com/embed/uK_Jet4nOP0?si=feO-mXsOjD_L1EQq",
     "titulo": "Constructor in Php & Python - Display!",
@@ -25,7 +25,7 @@
     "categoria": "Back-end",
     "imagem": "https://i.ytimg.com/vi/oxiByH5AEVE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBwmF3sk6KTkKbXP6iCPZSss2xaw",
     "alt": "Thumbnail do vídeo"
-  }, 
+  },
   {
     "id": 4,
     "link": "https://www.youtube.com/embed/Vb1HsK4IM88?si=-XnbM4-OR_dy1uon",

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Line from "./Line.vue"
+import Line from "./Line.vue";
 export default {
   name: "Titulo",
   props: {
-    titulo: String
-  }
-}
+    titulo: String,
+  },
+};
 </script>
