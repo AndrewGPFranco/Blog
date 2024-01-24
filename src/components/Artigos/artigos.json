@@ -51,5 +51,13 @@
     "textoDois": "Uma das principais características do Laravel é seu sistema de roteamento, que permite definir facilmente as URLs do aplicativo. Além disso, o framework integra o Eloquent, um ORM que torna a interação com bancos de dados mais eficiente e legível, permitindo que os desenvolvedores trabalhem com dados usando objetos e métodos.",
     "data": "26-10-2023",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-AfeJSnDOC7iYCNcLPL7aQ0tMhFNDugCJvQ&usqp=CAU"
+  }, 
+  {
+    "id": "7",
+    "titulo": "Nuxt.js",
+    "textoUm": "O Nuxt.js é um framework JavaScript de código aberto construído sobre o Vue.js. Originado em 2016, foi criado por Sebastien Chopin e Alex Mad. Ele simplifica o desenvolvimento de aplicações Vue ao oferecer uma estrutura opinativa e convenções predefinidas. O Nuxt.js facilita a renderização no lado do servidor, geração estática e roteamento automático.",
+    "textoDois":"Suporta um desenvolvimento rápido com suas funcionalidades como pre-renderização, módulos integrados e gerenciamento de estado Vuex. Seu ecossistema inclui plugins para facilitar a integração com diversas bibliotecas e ferramentas. Com uma arquitetura modular e fácil configuração, o Nuxt.js é uma escolha popular para criar aplicações Vue.js robustas e eficientes, proporcionando uma experiência de desenvolvimento fluída e eficaz.",
+    "data": "24-01-2024",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUpnGHz5mBi8oHX9MBwqagg3k7ZWUApu4jeEBAyuJV_Cd26zdp7E9AIc&s=10"
   }
 ]
