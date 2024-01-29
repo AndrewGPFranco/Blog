@@ -76,7 +76,7 @@ export default {
 
 <style scoped>
   .animation {
-    animation: slideInLeft;
+    animation: slideInDown;
     animation-duration: 1s;
   }
 </style>
