@@ -57,6 +57,6 @@ export default {
 <style scoped>
   #animation {
     animation: slideInRight;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
   }
 </style>

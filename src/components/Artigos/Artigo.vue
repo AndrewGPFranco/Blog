@@ -28,6 +28,6 @@ export default {
 <style scoped>
   #animation {
     animation: slideInLeft;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
   }
 </style>
