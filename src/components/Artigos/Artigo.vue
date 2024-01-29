@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-white p-4">
+  <section id="animation" class="bg-black text-white p-4">
     <div v-for="artigo in artigos" :key="artigo.id">
       <Titulo class="text-start" :titulo="artigo.titulo" />
       <p class="mt-1">{{ artigo.textoUm }}</p>
@@ -19,8 +19,15 @@ export default {
   components: { Titulo },
   data() {
     return {
-      artigos: artigos,
+      artigos: artigos
     };
   },
 };
 </script>
+
+<style scoped>
+  #animation {
+    animation: slideInLeft;
+    animation-duration: 2s;
+  }
+</style>

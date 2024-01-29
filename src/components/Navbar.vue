@@ -17,7 +17,7 @@
         ></i>
       </button>
     </div>
-    <div v-show="ativado">
+    <div class="animation" v-show="ativado">
       <ul class="text-white m-4 flex flex-col text-end">
         <router-link to="/" class="flex justify-end"
           ><li
@@ -73,3 +73,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .animation {
+    animation: slideInLeft;
+    animation-duration: 1s;
+  }
+</style>

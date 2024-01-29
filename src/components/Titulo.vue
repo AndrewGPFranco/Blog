@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-center font-bold pt-3">
+  <section id="animation" class="bg-black text-center font-bold pt-3">
     <h1 class="text-blue-400 text-xl">{{ titulo }}</h1>
   </section>
 </template>
@@ -13,3 +13,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  #animation {
+    animation: slideInRight;
+    animation-duration: 2s;
+  }
+</style>

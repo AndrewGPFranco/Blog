@@ -2,9 +2,9 @@
   <header>
     <Navbar />
   </header>
-  <div>
+  <main>
     <Artigo />
-  </div>
+  </main>
   <footer>
     <Rodape />
   </footer>
@@ -19,3 +19,9 @@ export default {
   components: { Artigo, Navbar, Rodape },
 };
 </script>
+
+<style scoped>
+  main {
+    background-color: black;
+  }
+</style>

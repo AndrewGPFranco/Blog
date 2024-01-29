@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5 bg-black -mt-2">
+  <section id="animation" class="p-5 bg-black -mt-2">
     <div class="border-2 p-0.5 border-gray-700 rounded-xl bg-black">
       <div
         v-for="noticia in noticiasData"
@@ -53,3 +53,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  #animation {
+    animation: slideInRight;
+    animation-duration: 2s;
+  }
+</style>
