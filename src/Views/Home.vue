@@ -18,8 +18,13 @@
         </button>
       </div>
       <div class="flex justify-center">
-        <iframe class="4/4 rounded-md lg:h-96 lg:w-3/4" height="250"
-          src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ" title="YouTube video player" frameborder="0"
+        <iframe
+          v-if="assistir"
+          class="4/4 rounded-md lg:h-96 lg:w-3/4"
+          height="250"
+          src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ"
+          title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
