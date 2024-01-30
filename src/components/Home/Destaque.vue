@@ -5,14 +5,10 @@
         class="border border-gray-700 rounded-xl p-3 bg-black text-center lg:flex lg:flex-col lg:justify-center">
         <img class="mb-2 rounded-xl lg:w-2/4 lg:min-auto" :src="noticia.link" alt="Thumb do Post" />
         <Line />
-        <p v-if="ler === false" class="text-white text-start mt-2">
-          {{ noticia.descricao.substring(0, 107) + "..." }}
+        <p class="text-white text-start mt-2">
+          {{ ler ? noticia.descricao : exibirDescricao(noticia.descricao, 107) }}
         </p>
-        <p v-if="ler" class="text-white text-start mt-2">
-          {{ noticia.descricao }}
-        </p>
-        <button class="btnLer" v-if="!ler" @click="readMore">Ler mais</button>
-        <button class="btnLer" v-if="ler" @click="readMore">Ler menos</button>
+        <button class="btnLer" @click="readMore">{{ ler ? 'Ler menos' : 'Ler mais' }}</button>
         <a :href="noticia.linkExterno" target="_blank">
           <button class="text-black bg-orange-500 p-2 rounded-2xl font-bold mt-1">
             Acessar
@@ -39,12 +35,15 @@ export default {
   methods: {
     readMore() {
       this.ler = !this.ler;
-    }
+    },
+    exibirDescricao(description, maxLength) {
+      return description.substring(0, maxLength) + "...";
+    },
   },
   data() {
     return {
       noticiasData: [],
-      ler: false
+      ler: false,
     };
   },
   created() {
