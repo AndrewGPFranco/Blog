@@ -48,7 +48,7 @@ export default {
 <style scoped>
 #animation {
   animation: slideInRight;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 button:hover {

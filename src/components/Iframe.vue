@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black p-6 flex flex-col justify-center text-center">
+  <div id="animation" class="bg-black p-6 flex flex-col justify-center text-center">
     <h1 class="text-orange-500 mb-1">{{ titulo }}</h1>
     <div class="flex flex-col justify-center text-center">
       <img class="mb-2" :src="imagem" :alt="alt" />
@@ -27,5 +27,10 @@ export default {
 a:hover {
   border-radius: 10px;
   background-color: rgb(91, 206, 206);
+}
+
+#animation {
+  animation: slideInRight;
+  animation-duration: 0.5s;
 }
 </style>
