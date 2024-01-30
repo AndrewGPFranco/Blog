@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "@vueuse/motion": "^2.0.0",
