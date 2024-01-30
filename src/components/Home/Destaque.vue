@@ -74,6 +74,10 @@ button:hover {
   margin-right: 10px;
 }
 
+.btnLer:hover {
+  background-color: orange;
+}
+
 @media (min-width: 1280px) {
   #animation {
     display: flex;
