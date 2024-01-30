@@ -19,7 +19,6 @@
       </div>
       <div class="flex justify-center">
         <iframe
-          v-if="assistir"
           class="4/4 rounded-md lg:h-96 lg:w-3/4"
           height="250"
           src="https://www.youtube.com/embed/uK_Jet4nOP0?si=46DNoAVn_Tm6b3fZ"
