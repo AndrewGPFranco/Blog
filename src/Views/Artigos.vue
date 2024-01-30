@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-  main {
-    background-color: black;
-  }
+main {
+  background-color: black;
+}
 </style>

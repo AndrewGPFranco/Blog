@@ -5,13 +5,8 @@
   <main>
     <Titulo titulo="Aulas Categoria: Front-End" />
     <div v-for="video in videos" :key="video.id" class="-mt-4">
-      <Iframe
-        :link="video.link"
-        :titulo="video.titulo"
-        :descricao="video.descricao"
-        :imagem="video.imagem"
-        :alt="video.alt"
-      />
+      <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao" :imagem="video.imagem"
+        :alt="video.alt" />
     </div>
   </main>
   <footer>
@@ -43,7 +38,7 @@ export default {
 </script>
 
 <style scoped>
-  main {
-    background-color: black;
-  }
+main {
+  background-color: black;
+}
 </style>

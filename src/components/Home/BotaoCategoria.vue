@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-img {
-  height: 200px;
+button:hover {
+  background-color: rgb(91, 206, 206);
 }
 </style>

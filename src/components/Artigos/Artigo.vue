@@ -26,8 +26,8 @@ export default {
 </script>
 
 <style scoped>
-  #animation {
-    animation: slideInLeft;
-    animation-duration: 0.5s;
-  }
+#animation {
+  animation: slideInLeft;
+  animation-duration: 0.5s;
+}
 </style>
