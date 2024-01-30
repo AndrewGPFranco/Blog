@@ -41,11 +41,11 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
-import Rodape from "../components/Rodape.vue";
+import Navbar from "../components/Global/Navbar.vue";
+import Rodape from "../components/Global/Rodape.vue";
 import Destaque from "../components/Home/Destaque.vue";
 import BotaoCategoria from "../components/Home/BotaoCategoria.vue";
-import Titulo from "../components/Titulo.vue";
+import Titulo from "../components/Global/Titulo.vue";
 import Banner from "../components/Home/Banner.vue";
 import Linguagens from "../components/Home/Linguagens.vue";
 

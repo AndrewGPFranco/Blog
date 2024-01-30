@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Titulo from "../Titulo.vue";
+import Titulo from "../Global/Titulo.vue";
 import artigos from "./artigos.json";
 
 export default {

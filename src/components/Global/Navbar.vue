@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-black p-2 flex flex-col">
     <div class="flex justify-between items-center m-4">
-      <router-link to="/"><img class="w-4/4 h-20" src="../assets/logo.jpg" alt="Logo do Blog" /></router-link>
+      <router-link to="/"><img class="w-4/4 h-20" src="../../assets/logo.jpg" alt="Logo do Blog" /></router-link>
       <button @click="showMenu" v-if="!ativado">
         <i class="pi pi-align-justify" style="color: orange; font-size: 2rem"></i>
       </button>

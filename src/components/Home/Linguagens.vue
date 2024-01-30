@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Titulo from "../Titulo.vue";
+import Titulo from "../Global/Titulo.vue";
 import linguagens from "./linguagens.json";
 
 export default {

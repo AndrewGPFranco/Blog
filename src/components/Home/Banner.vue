@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Line from "../Line.vue";
+import Line from "../Global/Line.vue";
 export default {
   name: "Banner",
   components: { Line },

@@ -21,7 +21,7 @@
 
 <script>
 import noticias from "./noticias.json";
-import Line from "../Line.vue";
+import Line from "../Global/Line.vue";
 
 export default {
   name: "Destaque",

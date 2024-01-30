@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
-import Rodape from "../components/Rodape.vue";
-import Iframe from "../components/Iframe.vue";
-import Titulo from "../components/Titulo.vue";
+import Navbar from "../components/Global/Navbar.vue";
+import Rodape from "../components/Global/Rodape.vue";
+import Iframe from "../components/Global/Iframe.vue";
+import Titulo from "../components/Global/Titulo.vue";
 import videos from "../components/Backend/videosb.json";
 export default {
   name: "Backend",
