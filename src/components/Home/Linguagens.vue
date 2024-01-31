@@ -4,9 +4,11 @@
     <div class="flex flex-wrap justify-center mt-1">
       <div class="text-center" v-for="image in linguagens" :key="image.id">
         <img @click="exibir(image.id)" class="w-20 m-1 h-20 cursor-pointer" :src="image.imagem" alt="Logo da {{ image.nome }}" />
+        <Transition name="fade">
         <p v-if="exibirNome === image.id" class="text-orange-400 font-bold">
           {{ image.nome }}
         </p>
+        </Transition>
       </div>
     </div>
   </section>
@@ -32,3 +34,15 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
