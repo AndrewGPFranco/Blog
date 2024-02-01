@@ -22,8 +22,17 @@
     "link": "https://www.youtube.com/embed/Vb1HsK4IM88?si=-XnbM4-OR_dy1uon",
     "titulo": "Como instalar Laravel / Breeze, Vue 3, Inertia e Typescript no Mesmo Projeto?!",
     "descricao": "Neste vídeo, você aprenderá a instalar Laravel / Breeze, Vue 3, Inertia e Typescript no mesmo projeto para criar um projeto fullstack.",
-    "categoria": "Back-end",
+    "categoria": "Front-end",
     "imagem": "https://i.ytimg.com/vi/Vb1HsK4IM88/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrYfA7PrrYSEnT0zBLG2y5Awz92A",
+    "alt": "Thumbnail do vídeo"
+  },
+    {
+    "id": 4,
+    "link": "https://youtu.be/G74j3HsAYiU?si=ESDvd6dtOYjw6_iC",
+    "titulo": "Redirecione Usuários para uma Página 404 Personalizada com o Vue Router!",
+    "descricao": "Nesse vídeo mostro como utilizar o Vue Router a seu favor, para direcionar o usuario para uma tela personalizada ao acessar uma rota não existente em seu site.",
+    "categoria": "Front-end",
+    "imagem": "https://i.ibb.co/c1qMWvw/Design-sem-nome.jpg",
     "alt": "Thumbnail do vídeo"
   }
 ]

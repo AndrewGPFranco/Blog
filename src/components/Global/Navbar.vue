@@ -37,25 +37,16 @@
   <Line />
 </template>
 
-<script>
-import Line from "./Line.vue";
-export default {
-  name: "Navbar",
-  data() {
-    return {
-      ativado: false,
-    };
-  },
-  methods: {
-    showMenu() {
-      this.ativado = !this.ativado;
-      console.log(this.ativado);
-    },
-  },
-  components: {
-    Line,
-  },
-};
+<script setup>
+import { ref } from 'vue';
+import Line from './Line.vue';
+
+const ativado = ref(false);
+
+function showMenu() {
+  ativado.value = !ativado.value;
+  console.log(ativado.value);
+}
 </script>
 
 <style scoped>
