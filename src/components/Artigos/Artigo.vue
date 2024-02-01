@@ -1,6 +1,6 @@
 <template>
   <section id="animation" class="bg-black text-white p-4">
-    <div v-for="artigo in artigos" :key="artigo.id">
+    <div v-for="artigo in artigosSorted" :key="artigo.id">
       <Titulo class="text-start" :titulo="artigo.titulo" />
       <p class="mt-1">{{ artigo.textoUm }}</p>
       <img class="my-3" :src="artigo.imagem" alt="Imagem do Artigo" />
@@ -22,6 +22,11 @@ export default {
       artigos: artigos
     };
   },
+  computed: {
+    artigosSorted() {
+      return this.artigos.slice().sort((a, b) => b.id - a.id);
+    }
+  }
 };
 </script>
 
