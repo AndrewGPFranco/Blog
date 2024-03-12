@@ -46,14 +46,6 @@ export default {
     Titulo,
     Banner,
     Linguagens,
-  },
-  methods: {
-    aviso() {
-      alert("Para melhor experiência, veja o site por um dispositivo celular, estamos trabalhando e em breve deixaremos responsivo.")
-    }
-  },
-  created() {
-    this.aviso();
   }
 };
 </script>
