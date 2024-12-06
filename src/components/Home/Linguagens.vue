@@ -16,7 +16,7 @@
 
 <script>
 import Titulo from "../Global/Titulo.vue";
-import linguagens from "./linguagens.json";
+import linguagens from "../Utils/linguagens.json";
 
 export default {
   name: "Linguagens",

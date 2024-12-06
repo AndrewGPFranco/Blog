@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import noticias from "./noticias.json";
+import noticias from "../Utils/noticias.json";
 import Line from "../Global/Line.vue";
 
 export default {

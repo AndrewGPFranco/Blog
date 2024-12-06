@@ -12,7 +12,7 @@
 
 <script>
 import Titulo from "../Global/Titulo.vue";
-import artigos from "./artigos.json";
+import artigos from "../Utils/artigos.json";
 
 export default {
   name: "Artigo",

@@ -19,7 +19,7 @@ import Navbar from "../components/Global/Navbar.vue";
 import Rodape from "../components/Global/Rodape.vue";
 import Iframe from "../components/Global/Iframe.vue";
 import Titulo from "../components/Global/Titulo.vue";
-import videos from "../components/Frontend/videosf.json";
+import videos from "../components/Utils/Frontend/videosf.json";
 export default {
   name: "Frontend",
   components: {
