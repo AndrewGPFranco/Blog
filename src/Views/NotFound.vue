@@ -1,13 +1,11 @@
 <template>
   <section>
-    <h1>Está pagina não foi encontrada!</h1>
+    <h1>{{ message }}</h1>
   </section>
 </template>
 
-<script>
-export default {
-  name: "NotFound",
-};
+<script setup lang="ts">
+  import { ref } from "vue";
+  
+  const message = ref("Está página não foi encontrada!");
 </script>
-
-<style scoped></style>
