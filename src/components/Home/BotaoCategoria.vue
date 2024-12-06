@@ -8,14 +8,11 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: "BotaoCategoria",
-  props: {
-    categoria: String,
-    link: String,
-  },
-};
+<script setup lang="ts">
+  const props = defineProps<{
+    categoria: string,
+    link: string,
+  }>();
 </script>
 
 <style scoped>
