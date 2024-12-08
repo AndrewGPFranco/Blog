@@ -34,5 +34,14 @@
     "categoria": "Front-end",
     "imagem": "https://i.ibb.co/c1qMWvw/Design-sem-nome.jpg",
     "alt": "Thumbnail do vídeo"
+  },
+  {
+    "id": 5,
+    "link": "https://youtu.be/Z9nr7OFKtOo?si=dbw8jiaWWq4QECo5",
+    "titulo": "Testes unitários/componentes no VueJs usando Vitest - Vídeo 1",
+    "descricao": "Nesse video começaremos a falar sobre testes no Front-end utilizando o Vitest, treinaremos testes unitários e testes em componentes.",
+    "categoria": "Front-end",
+    "imagem": "https://i.ibb.co/6bCXY8F/Testes-unit-rios-e-em-componentes-1-20241208-103458-0000.jpg",
+    "alt": "Thumbnail do vídeo"
   }
 ]
