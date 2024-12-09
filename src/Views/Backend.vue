@@ -2,7 +2,7 @@
   <header>
     <Navbar />
   </header>
-  <main>
+  <main class="bg-black">
     <Titulo titulo="Aulas Categoria: Back-End" />
     <div v-for="video in videos" :key="video.id" class="-mt-4">
       <Iframe :link="video.link" :titulo="video.titulo" :descricao="video.descricao" :imagem="video.imagem"
@@ -14,30 +14,13 @@
   </footer>
 </template>
 
-<script>
+<script setup lang="ts">
 import Navbar from "../components/Global/Navbar.vue";
 import Rodape from "../components/Global/Rodape.vue";
 import Iframe from "../components/Global/Iframe.vue";
 import Titulo from "../components/Global/Titulo.vue";
-import videos from "../components/Utils/Backend/videosb.json";
-export default {
-  name: "Backend",
-  components: {
-    Navbar,
-    Rodape,
-    Iframe,
-    Titulo,
-  },
-  data() {
-    return {
-      videos: videos,
-    };
-  },
-};
-</script>
+import videosBack from "../components/Utils/Backend/videosb.json";
+import { ref } from "vue";
 
-<style scoped>
-main {
-  background-color: black;
-}
-</style>
+const videos = ref(videosBack);
+</script>
