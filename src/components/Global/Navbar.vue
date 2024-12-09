@@ -16,19 +16,19 @@
             Home
           </li>
         </router-link>
-        <router-link to="/artigos" class="flex justify-end">
+        <router-link to="/frontend" class="flex justify-end">
           <li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">
-            Artigos Tech
+            Front-End
           </li>
         </router-link>
         <router-link to="/backend" class="flex justify-end">
           <li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">
-            Aulas - Back-End
+            Back-End
           </li>
         </router-link>
-        <router-link to="/frontend" class="flex justify-end">
+        <router-link to="/artigos" class="flex justify-end">
           <li class="bg-orange-500 text-white p-1 text-center m-1 rounded-lg w-2/5 font-bold">
-            Aulas - Front-End
+            Artigos Tech
           </li>
         </router-link>
       </ul>
