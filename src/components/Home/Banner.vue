@@ -5,12 +5,8 @@
   </div>
 </template>
 
-<script>
-import Line from "../Global/Line.vue";
-export default {
-  name: "Banner",
-  components: { Line },
-};
+<script setup lang="ts">
+import Line from '../Global/Line.vue';
 </script>
 
 <style scoped>
