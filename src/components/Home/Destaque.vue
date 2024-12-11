@@ -20,39 +20,27 @@
   <Line />
 </template>
 
-<script>
+<script setup lang="ts">
+// @ts-ignore
 import noticias from "../Utils/noticias.json";
 import Line from "../Global/Line.vue";
+import { onMounted, ref } from "vue";
+import { IArtigo } from "../../interfaces/IArtigo";
 
-export default {
-  name: "Destaque",
-  props: {
-    noticias: {
-      type: Array,
-      required: true,
-    },
-  },
-  methods: {
-    readMore() {
-      this.ler = !this.ler;
-    },
-    exibirDescricao(description, maxLength) {
-      return description.substring(0, maxLength) + "...";
-    },
-  },
-  data() {
-    return {
-      noticiasData: [],
-      ler: false,
-    };
-  },
-  created() {
-    this.noticiasData = noticias;
-  },
-  components: {
-    Line,
-  },
-};
+let ler = ref(false);
+let noticiasData = ref([] as IArtigo[]);
+
+const readMore = () => {
+  ler.value = !ler.value;
+}
+
+const exibirDescricao = (description: string, maxLength: number) => {
+  return description.substring(0, maxLength) + "...";
+}
+
+onMounted(() => {
+  noticiasData.value = noticias;
+});
 </script>
 
 <style scoped>
