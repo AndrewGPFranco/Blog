@@ -14,4 +14,16 @@ import Line from '../Global/Line.vue';
   animation: slideInRight;
   animation-duration: 0.5s;
 }
+
+@media only screen and (min-width: 768px) {
+  #animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #animation img {
+    width: 80vw;
+  }
+}
 </style>

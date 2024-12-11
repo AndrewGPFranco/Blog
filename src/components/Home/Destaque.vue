@@ -8,12 +8,14 @@
         <p class="text-white text-start mt-2 mb-2">
           {{ ler ? noticia.descricao : exibirDescricao(noticia.descricao, 107) }}
         </p>
-        <button class="btnLer" @click="readMore">{{ ler ? 'Ler menos' : 'Ler mais' }}</button>
-        <a :href="noticia.linkExterno" target="_blank">
-          <button class="text-black bg-orange-500 p-2 rounded-2xl font-bold mt-1" v-if="noticia.linkExterno.length > 0">
-            Acessar
-          </button>
-        </a>
+        <div>
+          <button class="btnLer" @click="readMore">{{ ler ? 'Ler menos' : 'Ler mais' }}</button>
+          <a :href="noticia.linkExterno" target="_blank">
+            <button class="text-black bg-orange-500 p-2 rounded-2xl font-bold mt-1" v-if="noticia.linkExterno.length > 0">
+              Acessar
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   </section>
